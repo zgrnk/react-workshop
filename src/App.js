@@ -27,8 +27,8 @@ class App extends Component {
   }
   render() {
     return (
-      <div class="app">
-        <div class="main">
+      <div className="app">
+        <div className="main">
           <Search />
           <FlatList
             flats={this.state.flats}
